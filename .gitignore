@@ -27,4 +27,15 @@ Thumbs.db
 .idea/
 
 # Локальные тесты
-coverage/
+coverage/node_modules
+.env
+.DS_Store
+node_modules
+.env
+.DS_Store
+node_modules
+.env
+.DS_Store
+node_modules
+.env
+.DS_Store

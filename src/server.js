@@ -1,6 +1,6 @@
 import express from 'express';
 import { PORT } from './config/config.js';
-import weatherRoutes from './moduls/weather/weather.routes.js';
+import weatherRoutes from './modules/weather/weather.routes.js';
 import errorHandler from './utils/errorHandler.js';
 
 const app = express();
