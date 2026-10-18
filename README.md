@@ -32,6 +32,8 @@ cp .env.example .env     # set OPENWEATHER_API_KEY and PORT=3000
 docker compose up --build
 ```
 
+The compose file uses `network_mode: bridge` because the default project network has no outbound internet access in GitHub Codespaces. On a regular machine you can remove that line.
+
 ## Environment variables
 
 | Variable | Required | Description |
