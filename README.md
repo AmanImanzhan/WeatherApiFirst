@@ -51,7 +51,7 @@ Success response:
   "success": true,
   "data": {
     "city": "London",
-    "temperature": 14.2,
+    "temperature": 14,
     "description": "light rain"
   }
 }

@@ -1,6 +1,9 @@
 services:
   weather-api:
     build: .
+    # Run in Docker's default bridge network (works in GitHub Codespaces,
+    # where the project network created by compose has no outbound access)
+    network_mode: bridge
     ports:
       - "3000:3000"
     env_file:

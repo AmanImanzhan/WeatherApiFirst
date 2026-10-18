@@ -9,7 +9,7 @@ const getWeather = async (city) => {
         q: city,
         appid: OPENWEATHER_API_KEY,
         units: 'metric',
-        lang: 'ru'
+        lang: 'en'
       }
     });
 
